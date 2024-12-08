@@ -8,7 +8,6 @@ Before running the project, make sure you have the following dependencies instal
 ```bash
 sudo apt-get install build-essential cmake libglew-dev libglfw3-dev libglm-dev libglu1-mesa-dev libgl-dev libxrandr-dev libxi-dev libxinerama-dev libx11-dev
 ```
-![Demo](chess.PNG)
 
 ### Building and Running the Project 🛠️
 1. Clone the repository to your local machine and move to the project directory.
@@ -27,3 +26,4 @@ make
 ```bash
 ./Examen 
 ```
+![Demo](chess.PNG)
