@@ -3,7 +3,7 @@ Welcome to the 3D chess game project I coded using C++ and OpenGL! This project 
 
 ![Demo](animation.gif)
 ## Getting Started 💼
-Before running the project, make sure you have the following dependencies installed on your system:
+Before running the project,  make sure you have the following dependencies installed on your system:
 ```bash
 sudo apt-get install build-essential cmake libglew-dev libglfw3-dev libglm-dev libglu1-mesa-dev libgl-dev libxrandr-dev libxi-dev libxinerama-dev libx11-dev
 ```
