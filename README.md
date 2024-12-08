@@ -29,7 +29,7 @@ make
 ### Start the game 🕹️
 This is a 3D modeled chess game where pieces move according to the rules of chess. Alternating between white and black pieces, each piece whose turn is chosen randomly moves to a random square in the chessboard grid while respecting its allowed movement. To make it easy to follow, a square of the chessboard turns green before it's occupied by a moving piece. The captured pieces disappear as well.
 
-Should you navigate through the game for a better view angle, use the keyboard shortcuts : 
+Should you navigate through the game for a better view angle, use the keyboard shortcuts :<br> 
 ⬆️Zoom <br>
 ⬇️Dezoom <br>
 ➡️Move the chessboard to the right <br>
