@@ -1,0 +1,12 @@
+# Blender 4.1.1 MTL File: 'None'
+# www.blender.org
+
+newmtl 12937_WoodenChessPawnSideB
+Ns 36.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.540000 0.540000 0.540000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/Lenovo/Downloads/MODELS/WoodenChessPawnSideB_v2_L3.123ccb407658-d58d-4d3f-8413-b5559b41b385/12937_WoodenChessPawnSideB_diffuse.jpg

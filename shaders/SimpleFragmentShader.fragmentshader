@@ -1,0 +1,34 @@
+
+#version 330 core
+
+in vec3 XZPositionOut;
+
+in vec3 fragmentColor; // Reçoit la couleur depuis le vertex shader
+out vec4 color;
+
+uniform vec3 PieceColor;
+uniform int isChessPiece;
+
+uniform vec3 XZ;
+
+
+void main(){
+    if(isChessPiece != 1)
+    {
+        if(XZ.x == XZPositionOut.x && XZ.z == XZPositionOut.z)
+        {
+             color = vec4(0, 1, 0, 1.0f); // Utilise directement la couleur passée par le vertex shader
+
+        }
+        else
+        {
+             color = vec4(fragmentColor, 1.0f); // Utilise directement la couleur passée par le vertex shader
+        }
+    }
+    else
+    {
+
+        color = vec4(PieceColor, 1.0f); // Utilise directement la couleur passée par le vertex shader
+        
+    }
+}

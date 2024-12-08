@@ -1,0 +1,12 @@
+# Blender 4.1.1 MTL File: 'None'
+# www.blender.org
+
+newmtl 12936_WoodenChessNightSideB
+Ns 36.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.540000 0.540000 0.540000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/Lenovo/Downloads/MODELS/WoodenChessKnightSideB_v2_L3.123c8c921133-231b-46e8-aae6-0c3f7fd9b366/12936_WoodenChessNightSideB_diffuse.jpg
