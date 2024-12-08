@@ -1,5 +1,5 @@
-# 3D-chess ♟️ ![C++](https://img.shields.io/badge/language-C++-blue)
-![OpenGL](https://img.shields.io/badge/graphics-OpenGL-brightgreen)
+# 3D-chess ♟️ ![C++](https://img.shields.io/badge/language-C++-blue) ![OpenGL](https://img.shields.io/badge/graphics-OpenGL-brightgreen)
+
 a 3D chess game I coded with C++ and OpenGL
 
 
