@@ -8,5 +8,5 @@ Before running the project, make sure you have the following dependencies instal
 ```bash
 sudo apt-get install build-essential cmake libglew-dev libglfw3-dev libglm-dev libglu1-mesa-dev libgl-dev libxrandr-dev libxi-dev libxinerama-dev libx11-dev
 ```
-![Demo](images/chess.PNG)
+![Demo](chess.PNG)
 
