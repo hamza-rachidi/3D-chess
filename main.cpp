@@ -1,6 +1,7 @@
 #define GLM_ENABLE_EXPERIMENTAL
 
 #include <iostream>
+#include <filesystem>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include "glm/glm.hpp"
@@ -19,6 +20,7 @@
 #include "pieces/tour.h"
 
 using namespace std;
+namespace fs = std::filesystem;
 
 int whiteCallCount = 0;
 int BlackCallCount = 0;
@@ -116,7 +118,10 @@ int main() {
 #ifdef WINDOWS
     string path = "";
 #else
-    string path = "/mnt/e/M2TSI/OpenGL/MonProjet/OpenGL_API_V6/"; // to be replaced with your path 
+    fs::path currentPath = fs::current_path();
+    fs::path projectRoot = currentPath.parent_path();
+    string path = projectRoot.string() +'/';
+    
 #endif // WINDOWS
 
 
